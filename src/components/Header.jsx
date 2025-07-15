@@ -17,7 +17,7 @@ export default function Header() {
     }, []);
 
     return (
-        <header className={`fixed top-0 w-full ${isFixed ? 'py-3 bg-white/60' : 'py-5 bg-white'} shadow-sm shadow-black/5 transition-all duration-300`}>
+        <header className={`fixed top-0 w-full z-20 ${isFixed ? 'py-3 bg-white/60 backdrop-blur-lg' : 'py-5 bg-white'} shadow-sm shadow-black/5 transition-all duration-300`}>
             <nav className="container mx-auto flex justify-between items-center max-w-8xl px-10">
                 <div >
                     <img src="https://agencealpha.fr/wp-content/uploads/2022/05/logo-agence-alpha.png" alt="" className={`${isFixed ? "w-[220px]" : "w-[320px]"} transition-all duration-300`} />
