@@ -71,7 +71,7 @@ export default function Header() {
                     <li><a href="/nos-leads" className="text-black/60 hover:text-[#2EA3F2] text-[14px] font-semibold">Nos Leads</a></li>
                     <li><a href="/nos-tarifs" className="text-black/60 hover:text-[#2EA3F2] text-[14px] font-semibold">Nos Tarifs</a></li>
                     <li><a href="/contact" className="text-black/60 hover:text-[#2EA3F2] text-[14px] font-semibold">Contact</a></li>
-                    <li><a href="/blog" className="text-black/60 hover:text-[#2EA3F2] text-[14px] font-semibold">Blog</a></li>
+                    {/* <li><a href="/blog" className="text-black/60 hover:text-[#2EA3F2] text-[14px] font-semibold">Blog</a></li> */}
                     <li><a href="tel:0756868686" className="bg-[#0088cc] text-[13px] font-semibold text-white uppercase rounded-[12px] py-1 px-2">07 56 86 86 86</a></li>
                     <li><a href="tel:0493131756" className="bg-[var(--light-blue)] text-[13px] font-semibold text-white uppercase rounded-[12px] py-1 px-2">04 93 13 17 56</a></li>
                 </ul>
@@ -106,7 +106,7 @@ export default function Header() {
                             <li><a href="/nos-leads" className="text-black/80 text-[16px] font-semibold">Nos Leads</a></li>
                             <li><a href="/nos-tarifs" className="text-black/80 text-[16px] font-semibold">Nos Tarifs</a></li>
                             <li><a href="/contact" className="text-black/80 text-[16px] font-semibold">Contact</a></li>
-                            <li><a href="/blog" className="text-black/80 text-[16px] font-semibold">Blog</a></li>
+                            {/* <li><a href="/blog" className="text-black/80 text-[16px] font-semibold">Blog</a></li> */}
                             <li><a href="tel:0756868686" className="bg-[var(--dark-blue)] text-[14px] text-white rounded-[12px] py-2 px-4">07 56 86 86 86</a></li>
                             <li><a href="tel:0493131756" className="bg-[var(--light-blue)] text-[14px] text-white rounded-[12px] py-2 px-4">04 93 13 17 56</a></li>
                         </ul>
