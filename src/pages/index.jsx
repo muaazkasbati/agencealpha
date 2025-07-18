@@ -10,9 +10,16 @@ export default function Home() {
         <div className="">
           <div className="grid md:grid-cols-2 items-center gap-20">
             <div className="space-y-4 md:pl-10 md:pr-12 md:order-1 order-2 md:px-0 px-6">
-              <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold">Agence génération leads qualifiés</h4>
-              <h1 className="md:text-[40px] text-[28px] text-[var(--dark-blue)] font-bold">Développer votre business n’a jamais été aussi facile</h1>
-              <p className="text-[16px] text-[var(--gray)] leading-8">Experts en <b>génération de leads</b>, nous vous apportons des prospects <b>qualifiés</b> et répondant à vos critères de qualification. Nous activons pour cela un ensemble de leviers de marketing digital qui nous permettront d’identifier les intentions et les recherches de vos futurs clients.</p>
+              <h4 class="text-[16px] text-[var(--light-blue)] uppercase font-semibold">
+                Agence spécialisée en génération de leads qualifiés
+              </h4>
+              <h1 class="md:text-[40px] text-[28px] text-[var(--dark-blue)] font-bold">
+                Développez votre activité plus facilement que jamais
+              </h1>
+              <p class="text-[16px] text-[var(--gray)] leading-8">
+                Experts en <b>génération de leads</b>, nous vous fournissons des prospects <b>hautement qualifiés</b>, parfaitement alignés avec vos critères. Grâce à une combinaison de leviers de marketing digital, nous identifions les intentions et recherches de vos futurs clients pour maximiser vos opportunités commerciales.
+              </p>
+
               <div className="flex justify-center">
                 <button className="bg-[var(--orange)] hover:bg-[var(--orange)]/80 uppercase transition-all duration-300 cursor-pointer rounded-3xl py-4 px-8 flex items-center text-[12px] font-semibold text-white gap-1">
                   Demander un devis
@@ -24,7 +31,7 @@ export default function Home() {
                 </button>
               </div>
             </div>
-            <div className="bg-[var(--dark-blue)] md:order-2 order-1 relative rounded-l-[60px] text-white pt-24 bg-[url(data:image/svg+xml;base64,PHN2ZyAgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA3KSIgaGVpZ2h0PSIxNjBweCIgd2lkdGg9IjgwcHgiIHZpZXdCb3g9IjAgMCA4MCAxNjAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTQxLjEyLDQwLDUzLDE2LjI4LDYwLjYyLDFIODBWMEg1OC44OEw0MCwzNy43NiwyMS4xMiwwSDBWMUgxOS4zOEwyNywxNi4yOCwzOC44OCw0MCwxOS4zOCw3OUgwdjJIMTkuMzhsMTkuNSwzOS0xOS41LDM5SDB2MUgyMS4xMkw0MCwxMjIuMjQsNTguODgsMTYwSDgwdi0xSDYwLjYybC0xOS41LTM5LDE5LjUtMzlIODBWNzlINjAuNjJaTTQwLDExNy43NiwyMS4xMiw4MCw0MCw0Mi4yNCw1OC44OCw4MFoiLz48L3N2Zz4=)]">
+            <div className="bg-[var(--light-blue)] md:order-2 order-1 relative rounded-l-[60px] text-white pt-24 bg-[url(data:image/svg+xml;base64,PHN2ZyAgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA3KSIgaGVpZ2h0PSIxNjBweCIgd2lkdGg9IjgwcHgiIHZpZXdCb3g9IjAgMCA4MCAxNjAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTQxLjEyLDQwLDUzLDE2LjI4LDYwLjYyLDFIODBWMEg1OC44OEw0MCwzNy43NiwyMS4xMiwwSDBWMUgxOS4zOEwyNywxNi4yOCwzOC44OCw0MCwxOS4zOCw3OUgwdjJIMTkuMzhsMTkuNSwzOS0xOS41LDM5SDB2MUgyMS4xMkw0MCwxMjIuMjQsNTguODgsMTYwSDgwdi0xSDYwLjYybC0xOS41LTM5LDE5LjUtMzlIODBWNzlINjAuNjJaTTQwLDExNy43NiwyMS4xMiw4MCw0MCw0Mi4yNCw1OC44OCw4MFoiLz48L3N2Zz4=)]">
               <img src="https://agencealpha.fr/wp-content/uploads/2022/06/agence-alpha-generation-de-leads-men-1.png" alt="" className="h-full relative z-10 md:-ml-30" />
               <img src="https://agencealpha.fr/wp-content/uploads/2022/05/screen-5.png" alt="" className="md:w-[580px] w-[260px] z-0 absolute md:left-30 left-10 top-1/3 block mx-auto" />
             </div>
@@ -34,9 +41,15 @@ export default function Home() {
       <section className="bg-[url(https://agencealpha.fr/wp-content/uploads/2022/03/app-19.png)] md:px-0 px-6 mb-3 shadow-xl md:bg-size-[50%] bg-size-1 bg-no-repeat bg-center relative py-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-white/80">
         <div className="container mx-auto relative z-10 md:pt-20 text-center max-w-6xl">
           <div className="mx-auto block w-14 h-4 bg-[var(--light-blue)] mb-12"></div>
-          <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-12">Génération de leads</h4>
-          <h2 className="md:text-[40px] text-[28px] text-[var(--dark-blue)] font-bold mb-2">Une expertise métier à 360°</h2>
-          <p className="text-[16px] text-[var(--gray)] leading-8 mb-6">Nous générons pour vous <b>des leads qualifiés</b> sur votre secteur pour <b>faire décoller votre business</b></p>
+          <h4 class="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-12">
+            Génération de leads
+          </h4>
+          <h2 class="md:text-[40px] text-[28px] text-[var(--dark-blue)] font-bold mb-2">
+            Une expertise complète et sur-mesure
+          </h2>
+          <p class="text-[16px] text-[var(--gray)] leading-8 mb-6">
+            Nous vous apportons <b>des leads hautement qualifiés</b> dans votre secteur afin de <b>booster la croissance de votre activité</b>
+          </p>
           <div className="grid md:grid-cols-5 grid-cols-2 mb-12">
             <div className="text-center space-y-3">
               <svg id="Layer_1" className="w-[68px] h-[68px] text-[var(--normal-blue)] block mx-auto" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 139.19 142.57">
@@ -89,10 +102,16 @@ export default function Home() {
       </section>
       <section className="py-20 md:px-0 px-6">
         <div className="container mx-auto relative z-10 text-center max-w-6xl">
-          <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-6">Nos leads</h4>
-          <h2 className="md:text-[40px] text-[28px] text-[var(--dark-blue)] font-bold mb-2">Une multitude de leads pour répondre à vos attentes</h2>
-          <p className="text-[16px] text-[var(--gray)] leading-8 mb-8">Plus de <b>100 000 leads déjà vendus</b> sur plus de <b>30 secteurs différents</b>.<br />
-            Découvrez quelques-uns de nos domaines d'expertises</p>
+          <h4 class="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-6">
+            Nos leads
+          </h4>
+          <h2 class="md:text-[40px] text-[28px] text-[var(--dark-blue)] font-bold mb-2">
+            Une large variété de leads adaptés à vos besoins
+          </h2>
+          <p class="text-[16px] text-[var(--gray)] leading-8 mb-8">
+            Plus de <b>100 000 leads déjà commercialisés</b> dans plus de <b>30 secteurs d’activité</b>.<br />
+            Explorez quelques-uns de nos domaines d’expertise
+          </p>
           <div className="grid md:grid-cols-6 grid-cols-3 gap-12 mb-12">
             <div className="text-center space-y-3">
               <a href="" className="block">
@@ -303,12 +322,16 @@ export default function Home() {
         <div className="container mx-auto max-w-6xl md:px-10 px-6">
           <div className="grid md:grid-cols-2 items-center gap-10">
             <div className="space-y-4 pr-8 md:order-1 order-2">
-              <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold">Notre approche</h4>
-              <h2 className="md:text-[40px]/12 text-[28px] text-[var(--dark-blue)] font-bold">Des leads de qualités pour une campagne réussie !</h2>
-              <p className="text-[16px] text-[var(--gray)] leading-8">
-                Pour <b>générer des leads de qualité</b>, nous identifions les <b>canaux les plus adaptés à votre secteur d’activité</b>. Nous lançons les opérations marketing de <b>génération de leads</b>, et nos experts génèrent, pour vous, <b>des leads qualitatifs et les moins chers</b> possibles pour une collaboration sur le long terme.
+              <h4 class="text-[16px] text-[var(--light-blue)] uppercase font-semibold">
+                Notre approche
+              </h4>
+              <h2 class="md:text-[40px]/12 text-[28px] text-[var(--dark-blue)] font-bold">
+                Des leads de qualité pour des campagnes performantes !
+              </h2>
+              <p class="text-[16px] text-[var(--gray)] leading-8">
+                Pour <b>obtenir des leads vraiment qualifiés</b>, nous sélectionnons les <b>canaux les plus pertinents pour votre secteur</b>. Nos équipes déploient des campagnes de <b>génération de leads</b> ciblées, vous fournissant <b>des leads efficaces au meilleur coût</b>, dans une logique de partenariat durable.
                 <br /><br />
-                Nous garantissons à nos clients <b>des leads exclusifs</b> et une totale transparence dans nos actions de communication.
+                Nous vous assurons <b>des leads 100 % exclusifs</b> ainsi qu’une <b>transparence totale</b> sur l’ensemble de nos actions marketing.
               </p>
               <div className="flex justify-center">
                 <button className="bg-[var(--orange)] hover:bg-[var(--orange)]/80 uppercase transition-all duration-300 cursor-pointer rounded-3xl py-4 px-8 flex items-center text-[12px] font-semibold text-white gap-1">
@@ -337,9 +360,15 @@ export default function Home() {
               {/* <img src="https://agencealpha.fr/wp-content/uploads/2022/05/screen-4.png" alt="" className="w-[380px] z-0 absolute left-30 top-1/3 block mx-auto" /> */}
             </div>
             <div className="space-y-4 md:pl-10 md:pr-8">
-              <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold">Nos clients</h4>
-              <h2 className="md:text-[40px]/12 text-[28px] text-[var(--dark-blue)] font-bold">La réussite de nos clients au cœur de nos priorités</h2>
-              <p className="text-[16px] text-[var(--gray)] leading-8">Experts en <b>génération de leads</b>, nous vous apportons des prospects <b>qualifiés</b> et répondant à vos critères de qualification. Nous activons pour cela un ensemble de leviers de marketing digital qui nous permettront d’identifier les intentions et les recherches de vos futurs clients.</p>
+              <h4 class="text-[16px] text-[var(--light-blue)] uppercase font-semibold">
+                Nos clients
+              </h4>
+              <h2 class="md:text-[40px]/12 text-[28px] text-[var(--dark-blue)] font-bold">
+                Le succès de nos clients est notre priorité
+              </h2>
+              <p class="text-[16px] text-[var(--gray)] leading-8">
+                Spécialistes de la <b>génération de leads</b>, nous vous fournissons des prospects <b>hautement qualifiés</b>, parfaitement adaptés à vos critères. Pour cela, nous mobilisons divers leviers du marketing digital afin d’identifier les intentions et besoins réels de vos futurs clients.
+              </p>
               <div className="flex justify-center">
                 <button className="bg-[var(--orange)] hover:bg-[var(--orange)]/80 uppercase transition-all duration-300 cursor-pointer rounded-3xl py-4 px-8 flex items-center text-[12px] font-semibold text-white gap-1">
                   Découvrir nos tarifs
@@ -358,14 +387,18 @@ export default function Home() {
         <div className="container mx-auto max-w-6xl md:px-10 px-6">
           <div className="grid md:grid-cols-2 items-center gap-10">
             <div className="space-y-4 pr-8 md:order-1 order-2">
-              <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold">Achetez des leads</h4>
-              <h2 className="md:text-[40px]/12 text-[28px] text-[var(--dark-blue)] font-bold">Pourquoi et comment acheter des leads ?</h2>
-              <p className="text-[16px] text-[var(--gray)] leading-8">
-                Achetez des leads avec notre Agence s’adresse à toutes les entreprises souhaitant acquérir <b>des leads qualifiés sur un secteur d’activité bien précis.</b>
+              <h4 class="text-[16px] text-[var(--light-blue)] uppercase font-semibold">
+                Achetez des leads
+              </h4>
+              <h2 class="md:text-[40px]/12 text-[28px] text-[var(--dark-blue)] font-bold">
+                Pourquoi acheter des leads et comment ça fonctionne ?
+              </h2>
+              <p class="text-[16px] text-[var(--gray)] leading-8">
+                Acheter des leads via notre agence s’adresse à toutes les entreprises souhaitant obtenir <b>des prospects qualifiés ciblés sur un secteur spécifique</b>.
                 <br /><br />
-                <b>La qualité de nos leads</b> est certifiée et vous permet d’obtenir des contacts directement activables pour l’ensemble de vos campagnes marketing et commerciales.
+                <b>Nos leads sont certifiés de haute qualité</b>, vous offrant des contacts immédiatement exploitables pour vos actions marketing et commerciales.
                 <br /><br />
-                <b>Le budget,</b> un point essentiel, est également <b>adaptable</b> selon vos critères et vous permettra ainsi de trouver le <b>meilleur lead au meilleur tarif.</b>
+                <b>Le budget</b> est un élément clé, et il est <b>entièrement ajustable</b> selon vos critères, vous garantissant ainsi <b>le meilleur rapport qualité/prix</b> pour vos campagnes.
               </p>
               <div className="flex justify-center">
                 <button className="bg-[var(--orange)] hover:bg-[var(--orange)]/80 uppercase transition-all duration-300 cursor-pointer rounded-3xl py-4 px-8 flex items-center text-[12px] font-semibold text-white gap-1">
@@ -378,40 +411,60 @@ export default function Home() {
                 </button>
               </div>
             </div>
-            <div className="bg-[#003591] md:order-2 order-1 relative rounded-[60px] text-white pt-64 bg-[url(data:image/svg+xml;base64,PHN2ZyAgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA3KSIgaGVpZ2h0PSIxNjBweCIgd2lkdGg9IjgwcHgiIHZpZXdCb3g9IjAgMCA4MCAxNjAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTQxLjEyLDQwLDUzLDE2LjI4LDYwLjYyLDFIODBWMEg1OC44OEw0MCwzNy43NiwyMS4xMiwwSDBWMUgxOS4zOEwyNywxNi4yOCwzOC44OCw0MCwxOS4zOCw3OUgwdjJIMTkuMzhsMTkuNSwzOS0xOS41LDM5SDB2MUgyMS4xMkw0MCwxMjIuMjQsNTguODgsMTYwSDgwdi0xSDYwLjYybC0xOS41LTM5LDE5LjUtMzlIODBWNzlINjAuNjJaTTQwLDExNy43NiwyMS4xMiw4MCw0MCw0Mi4yNCw1OC44OCw4MFoiLz48L3N2Zz4=)]">
+            <div className="bg-[var(--light-blue)] md:order-2 order-1 relative rounded-[60px] text-white pt-64 bg-[url(data:image/svg+xml;base64,PHN2ZyAgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA3KSIgaGVpZ2h0PSIxNjBweCIgd2lkdGg9IjgwcHgiIHZpZXdCb3g9IjAgMCA4MCAxNjAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTQxLjEyLDQwLDUzLDE2LjI4LDYwLjYyLDFIODBWMEg1OC44OEw0MCwzNy43NiwyMS4xMiwwSDBWMUgxOS4zOEwyNywxNi4yOCwzOC44OCw0MCwxOS4zOCw3OUgwdjJIMTkuMzhsMTkuNSwzOS0xOS41LDM5SDB2MUgyMS4xMkw0MCwxMjIuMjQsNTguODgsMTYwSDgwdi0xSDYwLjYybC0xOS41LTM5LDE5LjUtMzlIODBWNzlINjAuNjJaTTQwLDExNy43NiwyMS4xMiw4MCw0MCw0Mi4yNCw1OC44OCw4MFoiLz48L3N2Zz4=)]">
               <img src="https://agencealpha.fr/wp-content/uploads/2022/06/agence-alpha-generation-de-leads-women-1.png" alt="" className="md:w-[420px] w-[280px] relative z-10 md:-ml-20" />
               <img src="https://agencealpha.fr/wp-content/uploads/2022/05/screen-3.png" alt="" className="md:w-[380px] w-[220px] z-0 absolute left-0 right-0 top-1/4 block mx-auto" />
             </div>
           </div>
         </div>
       </section>
-      <section className="bg-[var(--dark-blue)] text-white md:py-36 py-20 bg-[url(data:image/svg+xml;base64,PHN2ZyAgZmlsbD0icmdiYSgwLDAsMCwwLjA3KSIgaGVpZ2h0PSIxNjBweCIgd2lkdGg9IjgwcHgiIHZpZXdCb3g9IjAgMCA4MCAxNjAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTQxLjEyLDQwLDUzLDE2LjI4LDYwLjYyLDFIODBWMEg1OC44OEw0MCwzNy43NiwyMS4xMiwwSDBWMUgxOS4zOEwyNywxNi4yOCwzOC44OCw0MCwxOS4zOCw3OUgwdjJIMTkuMzhsMTkuNSwzOS0xOS41LDM5SDB2MUgyMS4xMkw0MCwxMjIuMjQsNTguODgsMTYwSDgwdi0xSDYwLjYybC0xOS41LTM5LDE5LjUtMzlIODBWNzlINjAuNjJaTTQwLDExNy43NiwyMS4xMiw4MCw0MCw0Mi4yNCw1OC44OCw4MFoiLz48L3N2Zz4=)]">
+      <section className="bg-[var(--dark-blue)] text-white md:py-36 py-20 bg-[url(data:image/svg+xml;base64,PHN2ZyAgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA3KSIgaGVpZ2h0PSIxNjBweCIgd2lkdGg9IjgwcHgiIHZpZXdCb3g9IjAgMCA4MCAxNjAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTQxLjEyLDQwLDUzLDE2LjI4LDYwLjYyLDFIODBWMEg1OC44OEw0MCwzNy43NiwyMS4xMiwwSDBWMUgxOS4zOEwyNywxNi4yOCwzOC44OCw0MCwxOS4zOCw3OUgwdjJIMTkuMzhsMTkuNSwzOS0xOS41LDM5SDB2MUgyMS4xMkw0MCwxMjIuMjQsNTguODgsMTYwSDgwdi0xSDYwLjYybC0xOS41LTM5LDE5LjUtMzlIODBWNzlINjAuNjJaTTQwLDExNy43NiwyMS4xMiw4MCw0MCw0Mi4yNCw1OC44OCw4MFoiLz48L3N2Zz4=)]">
         <div className="container mx-auto max-w-6xl text-center md:px-8 px-6">
-          <h2 className="md:text-[40px]/12 text-[28px] font-bold mb-12">VOTRE PROJET</h2>
-          <h4 className="text-[16px] uppercase font-semibold mb-16">En moyenne, nos clients reçoivent 5 à 20 prospects intéressés par jour</h4>
-          <div className="grid md:grid-cols-3 gap-16 mb-18">
-            <div className="bg-white rounded-3xl md:p-12 p-8">
-              <svg class="w-[98px] h-[98px] text-[var(--normal-blue)] block mx-auto mb-12" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.50" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><path fill="white" d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" /><path fill="currentColor" d="M12 18V6" /></svg>
-              <h4 className="text-[20px] text-[var(--light-blue)] uppercase font-semibold mb-2">Achats de leads</h4>
-              <p className="text-[18px] text-[var(--gray)] leading-8">
-                Nos experts collectent pour vous des <strong>leads qualifiés</strong> sur un ensemble de leviers d’acquisition. Les contacts vous sont <strong>transmis en temps réel</strong> !
+          <h2 class="md:text-[40px]/12 text-[28px] font-bold mb-12">
+            VOTRE PROJET
+          </h2>
+          <h4 class="text-[16px] uppercase font-semibold mb-16">
+            En moyenne, nos clients reçoivent entre 5 et 20 prospects qualifiés chaque jour
+          </h4>
+          <div class="grid md:grid-cols-3 gap-16 mb-18">
+            <div class="bg-white rounded-3xl md:p-12 p-8">
+              <svg class="w-[98px] h-[98px] text-[var(--normal-blue)] block mx-auto mb-12" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <path fill="white" d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+                <path fill="currentColor" d="M12 18V6" />
+              </svg>
+              <h4 class="text-[20px] text-[var(--light-blue)] uppercase font-semibold mb-2">Achat de leads</h4>
+              <p class="text-[18px] text-[var(--gray)] leading-8">
+                Nos experts collectent pour vous des <strong>leads hautement qualifiés</strong> via plusieurs leviers d'acquisition. Les contacts vous sont <strong>envoyés en temps réel</strong> !
               </p>
             </div>
-            <div className="bg-white rounded-3xl md:p-12 p-8">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[98px] h-[98px] text-[var(--normal-blue)] block mx-auto mb-12"><path d="M2 21a8 8 0 0 1 13.292-6" /><circle cx="10" cy="8" r="5" /><path d="m16 19 2 2 4-4" /></svg>
-              <h4 className="text-[20px] text-[var(--light-blue)] uppercase font-semibold mb-2">Gestion de campagne</h4>
-              <p className="text-[18px] text-[var(--gray)] leading-8">
-                Nos experts prennent le relais sur la <b>gestion de vos campagnes</b>. Vous maîtrisez l’ensemble des process et avez la gestion totale de vos comptes.
+
+            <div class="bg-white rounded-3xl md:p-12 p-8">
+              <svg class="w-[98px] h-[98px] text-[var(--normal-blue)] block mx-auto mb-12" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 21a8 8 0 0 1 13.292-6" />
+                <circle cx="10" cy="8" r="5" />
+                <path d="m16 19 2 2 4-4" />
+              </svg>
+              <h4 class="text-[20px] text-[var(--light-blue)] uppercase font-semibold mb-2">Gestion de campagnes</h4>
+              <p class="text-[18px] text-[var(--gray)] leading-8">
+                Nos spécialistes prennent en charge la <b>gestion complète de vos campagnes</b>. Vous restez maître du processus avec un contrôle total sur vos comptes.
               </p>
             </div>
-            <div className="bg-white rounded-3xl md:p-12 p-8">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[98px] h-[98px] text-[var(--normal-blue)] block mx-auto mb-12"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" /><path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66" /><path d="m18 15-2-2" /><path d="m15 18-2-2" /></svg>
-              <h4 className="text-[20px] text-[var(--light-blue)] uppercase font-semibold mb-2">Hybride</h4>
-              <p className="text-[18px] text-[var(--gray)] leading-8">
-                Le meilleur des deux mondes. Vous décentralisez la gestion de vos comptes avec nos experts et nous développons <b>de nouveaux leviers d’acquisition.</b>
+
+            <div class="bg-white rounded-3xl md:p-12 p-8">
+              <svg class="w-[98px] h-[98px] text-[var(--normal-blue)] block mx-auto mb-12" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                <path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66" />
+                <path d="m18 15-2-2" />
+                <path d="m15 18-2-2" />
+              </svg>
+              <h4 class="text-[20px] text-[var(--light-blue)] uppercase font-semibold mb-2">Offre hybride</h4>
+              <p class="text-[18px] text-[var(--gray)] leading-8">
+                Le meilleur des deux mondes : vous déléguez la gestion de vos comptes tout en collaborant avec nos experts pour <b>déployer de nouveaux leviers d’acquisition</b>.
               </p>
             </div>
           </div>
+
           <div className="flex justify-center">
             <button className="bg-white hover:bg-white/80 uppercase transition-all duration-300 cursor-pointer rounded-3xl py-4 px-8 flex items-center text-[12px] font-semibold text-[var(--normal-blue)] gap-1">
               Découvrir nos prestations
@@ -426,31 +479,41 @@ export default function Home() {
       </section>
       <section className="py-20">
         <div className="container mx-auto max-w-6xl md:px-8 px-6">
-          <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold text-center mb-4">Le secret de votre réussite</h4>
-          <h2 className="md:text-[40px]/12 text-[28px] text-[var(--dark-blue)] font-bold text-center mb-12">6 points clés qui feront le succès de vos campagnes !</h2>
+          <h4 class="text-[16px] text-[var(--light-blue)] uppercase font-semibold text-center mb-4">
+            Le secret de votre réussite
+          </h4>
+          <h2 class="md:text-[40px]/12 text-[28px] text-[var(--dark-blue)] font-bold text-center mb-12">
+            6 facteurs clés pour garantir le succès de vos campagnes !
+          </h2>
           <div className="grid md:grid-cols-3 mb-8 md:gap-0 gap-6">
             <div className="space-y-10">
               <div className="text-end">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block ml-auto mb-8"><path d="M6 8.5a6.5 6.5 0 1 1 13 0c0 6-6 6-6 10a3.5 3.5 0 1 1-7 0" /><path d="M15 8.5a2.5 2.5 0 0 0-5 0v1a2 2 0 1 1 0 4" /></svg>
-                <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">À L’ÉCOUTE DE VOTRE STRATÉGIE</h4>
-                <p className="text-[16px] text-[var(--gray)] leading-8">
-                  Avant chaque lancement de projet, nous prenons le temps d’écouter chaque client. L’objectif étant de comprendre quel est votre besoin et comment il s’inscrit dans votre stratégie globale.
+                <h4 class="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">
+                  UNE STRATÉGIE ALIGNÉE À VOS OBJECTIFS
+                </h4>
+                <p class="text-[16px] text-[var(--gray)] leading-8">
+                  Avant chaque lancement, nous écoutons attentivement vos besoins afin de comprendre vos objectifs et les intégrer à votre stratégie globale.
                 </p>
               </div>
 
               <div className="text-end">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block ml-auto mb-8"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg>
-                <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">TARIF FIXE</h4>
-                <p className="text-[16px] text-[var(--gray)] leading-8">
-                  Aucune surprise, nous définissions ensemble le prix et les critères de qualification des leads. Ainsi vous pouvez piloter votre acquisition sereinement !
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block ml-auto mb-8"><circle cx="12" cy="12" r="10" /><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" /><path d="M12 18V6" /></svg>
+                <h4 class="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">
+                  TARIFICATION TRANSPARENTE
+                </h4>
+                <p class="text-[16px] text-[var(--gray)] leading-8">
+                  Aucun frais caché : le tarif et les critères de qualification sont définis ensemble, pour une acquisition claire et maîtrisée.
                 </p>
               </div>
 
               <div className="text-end">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block ml-auto mb-8"><circle cx="12" cy="12" r="10"/><line x1="9" x2="15" y1="15" y2="9"/></svg>
-                <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">DÉFINIR  VOTRE CIBLE</h4>
-                <p className="text-[16px] text-[var(--gray)] leading-8">
-                  Nous accordons une attention toute particulière à la définition de votre cible / personae. Nous pourrons ainsi créer des campagnes ultras ciblées et personnalisées.
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block ml-auto mb-8"><circle cx="12" cy="12" r="10" /><line x1="9" x2="15" y1="15" y2="9" /></svg>
+                <h4 class="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">
+                  CIBLAGE PRÉCIS
+                </h4>
+                <p class="text-[16px] text-[var(--gray)] leading-8">
+                  La définition précise de vos cibles ou personas nous permet de concevoir des campagnes ultra-ciblées et performantes.
                 </p>
               </div>
             </div>
@@ -459,26 +522,32 @@ export default function Home() {
             </div>
             <div className="space-y-10">
               <div className="text-start">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block mb-8"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-                <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">CHAQUE LEAD EST UNIQUE</h4>
-                <p className="text-[16px] text-[var(--gray)] leading-8">
-                  L’acquisition de lead exclusif vous permettra de prendre une longueur d’avance sur vos concurrents.
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block mb-8"><circle cx="12" cy="12" r="10" /><path d="m9 12 2 2 4-4" /></svg>
+                <h4 class="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">
+                  DES LEADS UNIQUES
+                </h4>
+                <p class="text-[16px] text-[var(--gray)] leading-8">
+                  Chaque lead est exclusif, vous offrant une avance stratégique sur vos concurrents.
                 </p>
               </div>
 
               <div className="text-start">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block mb-8"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></svg>
-                <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">UNE GESTION DE VOS CAMPAGNES</h4>
-                <p className="text-[16px] text-[var(--gray)] leading-8">
-                  Nos Accounts Manager pilotent les campagnes de façon granulaire en lien avec votre service Commercial et/ou Marketing. Nos équipes sont une extension de votre société pour une meilleure efficacité !
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block mb-8"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /><path d="M16 3.128a4 4 0 0 1 0 7.744" /><path d="M22 21v-2a4 4 0 0 0-3-3.87" /><circle cx="9" cy="7" r="4" /></svg>
+                <h4 class="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">
+                  PILOTAGE PERSONNALISÉ
+                </h4>
+                <p class="text-[16px] text-[var(--gray)] leading-8">
+                  Nos Account Managers gèrent vos campagnes en étroite collaboration avec vos équipes commerciales ou marketing, comme une extension directe de votre entreprise.
                 </p>
               </div>
 
               <div className="text-start">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block mb-8"><path d="M12 6v6l4 2"/><circle cx="12" cy="12" r="10"/></svg>
-                <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">LIVRAISON EN TEMPS RÉEL</h4>
-                <p className="text-[16px] text-[var(--gray)] leading-8">
-                  Chaque lead est livré en temps réel après la soumission du formulaire. Vos commerciaux profitent donc de leads chauds et d’une qualité incomparable permettant de convertir 20% de plus.
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block mb-8"><path d="M12 6v6l4 2" /><circle cx="12" cy="12" r="10" /></svg>
+                <h4 class="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">
+                  ENVOI IMMÉDIAT DES LEADS
+                </h4>
+                <p class="text-[16px] text-[var(--gray)] leading-8">
+                  Chaque lead est transmis instantanément après validation du formulaire, garantissant des prospects chauds et un taux de conversion jusqu’à 20 % supérieur.
                 </p>
               </div>
             </div>

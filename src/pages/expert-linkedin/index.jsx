@@ -6,7 +6,7 @@ export default function ExpertLinkedin() {
     return (
         <>
             <Header />
-            <div className="container mx-auto px-4 py-8 max-w-4xl mt-24">
+            <div className="container mx-auto px-4 py-8 max-w-6xl mt-24">
                 {/* Header Image */}
                 <div className="mb-8">
                     <img
@@ -80,7 +80,7 @@ export default function ExpertLinkedin() {
 
                         <h3 className="text-xl font-semibold mt-4 mb-2">La puissance du community management</h3>
                         <p className="mb-4">
-                            En tant que meilleur réseau social au monde, LinkedIn vous permet développer votre business à travers le monde entier. Ces différentes fonctionnalités susmentionnées vous permettent de comprendre sa puissance. Grâce à elles, vous pourrez partager des contenus de qualité, relayer les écrits de votre blog d’entreprise afin de mieux vous faire connaitre sur les réseaux sociaux. Toutefois, il convient de noter qu’il vous fera difficile de gérer seul votre profil sur ce réseau social, faire appel à une <a href="https://agencealpha.fr/agence-de-community-management/" className="text-blue-600 hover:underline">agence de community management</a> est la meilleure option pour <strong>profiter de tous les avantages</strong> que vous propose LinkedIn.
+                            En tant que meilleur réseau social au monde, LinkedIn vous permet développer votre business à travers le monde entier. Ces différentes fonctionnalités susmentionnées vous permettent de comprendre sa puissance. Grâce à elles, vous pourrez partager des contenus de qualité, relayer les écrits de votre blog d’entreprise afin de mieux vous faire connaitre sur les réseaux sociaux. Toutefois, il convient de noter qu’il vous fera difficile de gérer seul votre profil sur ce réseau social, faire appel à une <a href="https://agencealpha.fr/agence-de-community-management/" className="text-[var(--light-blue)] font-bold hover:underline">agence de community management</a> est la meilleure option pour <strong>profiter de tous les avantages</strong> que vous propose LinkedIn.
                         </p>
                         <img
                             src="https://agencealpha.fr/wp-content/uploads/2020/11/puissance-community-management-300x199.jpg"
@@ -147,7 +147,7 @@ export default function ExpertLinkedin() {
 
                         <h2 className="text-2xl font-bold mt-6 mb-4">L’expertise LinkedIn de l’agence ALPHA</h2>
                         <p className="mb-4">
-                            Avec l’importance des réseaux sociaux l’agence de social media ALPHA à chercher à devenir <a href="https://agencealpha.fr/2020/08/24/fiche-metier-community-manager/" className="text-blue-600 hover:underline">community manager</a> afin de vous aider dans votre e-réputation. Experte en réseaux sociaux et du marketing digital, ALPHA dispose des compétences nécessaires, les outils qu’il faut pour établir et entretenir votre réseau social. De plus, son métier est aussi de vous faire gagner en visibilité et de vous aider à avoir des contacts professionnels. Le fait de créer votre profil sur LinkedIn ne suffit pas pour attirer vos prospects de la meilleure manière, il vous faut faire appel à une agence de community management comme ALPHA. Notre intervention vous permettra de rendre meilleur les indicateurs de performance de votre inbound marketing, de cibler et d’entrer en contact avec les profils pertinents.
+                            Avec l’importance des réseaux sociaux l’agence de social media ALPHA à chercher à devenir <a href="https://agencealpha.fr/2020/08/24/fiche-metier-community-manager/" className="text-[var(--light-blue)] font-bold hover:underline">community manager</a> afin de vous aider dans votre e-réputation. Experte en réseaux sociaux et du marketing digital, ALPHA dispose des compétences nécessaires, les outils qu’il faut pour établir et entretenir votre réseau social. De plus, son métier est aussi de vous faire gagner en visibilité et de vous aider à avoir des contacts professionnels. Le fait de créer votre profil sur LinkedIn ne suffit pas pour attirer vos prospects de la meilleure manière, il vous faut faire appel à une agence de community management comme ALPHA. Notre intervention vous permettra de rendre meilleur les indicateurs de performance de votre inbound marketing, de cibler et d’entrer en contact avec les profils pertinents.
                         </p>
 
                         <h3 className="text-xl font-semibold mt-4 mb-2">La connaissance de l’algorithme et des méthodes de grow marketing</h3>
@@ -161,12 +161,6 @@ export default function ExpertLinkedin() {
                         </p>
                     </div>
 
-                    {/* Back to Home Button */}
-                    <div className="text-center mt-8">
-                        <a href="/" className="inline-block bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300">
-                            Revenir à l'accueil
-                        </a>
-                    </div>
                 </div>
             </div>
             <Footer />

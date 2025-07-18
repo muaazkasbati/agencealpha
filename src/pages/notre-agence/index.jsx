@@ -11,12 +11,13 @@ export default function NotreAgence() {
                     <div className="grid md:grid-cols-2 items-center gap-20">
                         <div className="space-y-4 md:pl-10 md:pr-12 md:order-1 order-2 md:px-0 px-6">
                             <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold">Notre agence</h4>
-                            <h1 className="md:text-[40px] text-[28px] text-[var(--dark-blue)] font-bold">Au service de votre réussite</h1>
+                            <h1 className="md:text-[40px] text-[28px] text-[var(--dark-blue)] font-bold">Engagée pour votre succès</h1>
                             <p className="text-[16px] text-[var(--gray)] leading-8">
-                                <b>Avec plus de 20 d’expérience dans la génération de leads</b>, nous accompagnons des entreprises de toute taille dans le développement de leur stratégie d’acquisition et de leur réussite !
+                                <b>Forte de plus de 20 ans d’expertise en génération de leads</b>, notre agence accompagne des entreprises de toutes tailles dans la mise en place de stratégies d’acquisition performantes et durables.
                                 <br /><br />
-                                Ensemble nous allons <b>construire et optimiser votre dispositif d’acquisition</b> pour faire passer votre business à la vitesse supérieure !
+                                Ensemble, nous allons <b>concevoir et perfectionner votre dispositif d’acquisition</b> afin de propulser votre activité vers de nouveaux sommets !
                             </p>
+
                             <div className="flex justify-center">
                                 <button className="bg-[var(--orange)] hover:bg-[var(--orange)]/80 uppercase transition-all duration-300 cursor-pointer rounded-3xl py-4 px-8 flex items-center text-[12px] font-semibold text-white gap-1">
                                     Demander un devis
@@ -235,15 +236,15 @@ export default function NotreAgence() {
                         </div>
                         <div className="space-y-4 md:pl-10 md:pr-8">
                             <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold">Objectif</h4>
-                            <h2 className="md:text-[40px]/12 text-[28px] text-[var(--dark-blue)] font-bold">un dispositif sur mesure</h2>
+                            <h2 className="md:text-[40px]/12 text-[28px] text-[var(--dark-blue)] font-bold">Un dispositif personnalisé</h2>
                             <p className="text-[16px] text-[var(--gray)] leading-8">
-                                Avec une expertise 360° reconnue, notre agence saura répondre à vos attentes. Augmentez dès aujourd’hui votre ROI en réalisant des campagnes 100% à la performance avec nos experts.
+                                Grâce à une expertise 360° reconnue, notre agence est parfaitement positionnée pour répondre à vos objectifs. Boostez votre ROI dès aujourd’hui avec des campagnes 100% axées sur la performance, orchestrées par nos spécialistes.
                                 <br /><br />
-                                Peu importe la taille de votre entreprise ou votre secteur, nos équipes sauront s‘adapter à vos besoins et surtout à votre budget !
+                                Quelle que soit la taille de votre entreprise ou votre secteur d’activité, nos équipes s’adaptent à vos besoins et à votre budget.
                                 <br /><br />
-                                Nous attachons une importance toute particulière à la performance de vos campagnes et à votre satisfaction. Nous vous accompagnerons en tant que véritable partenaire de proximité quelle que soit votre présence géographique.
+                                Nous plaçons la performance de vos campagnes et votre satisfaction au cœur de nos priorités. Nous agissons comme un partenaire de confiance, engagé à vos côtés, peu importe votre localisation.
                                 <br /><br />
-                                Donnez un nouveau souffle à votre business dès maintenant.
+                                Offrez un nouvel élan à votre business dès maintenant.
                             </p>
                             <div className="flex justify-center">
                                 <button className="bg-[var(--dark-blue)] hover:bg-[var(--dark-blue)]/80 uppercase transition-all duration-300 cursor-pointer rounded-3xl py-4 px-8 flex items-center text-[12px] font-semibold text-white gap-1">

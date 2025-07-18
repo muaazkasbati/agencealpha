@@ -10,12 +10,14 @@ export default function NosReferences() {
                 <div className="">
                     <div className="grid md:grid-cols-2 items-center gap-20">
                         <div className="space-y-4 md:pl-10 md:pr-12 md:order-1 order-2 md:px-0 px-6">
-                            <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold">Générez des leads qualifiés avec</h4>
+                            <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold">Obtenez des leads qualifiés grâce à</h4>
                             <h1 className="md:text-[40px] text-[28px] text-[var(--dark-blue)] font-bold">Agence Alpha</h1>
                             <p className="text-[16px] text-[var(--gray)] leading-8">
-                                Expert en génération de leads, nous vous apportons des prospects qualifiés et prêts à répondre à vos attentes. Pour cela, nous utilisons un ensemble de techniques de marketing digital nous permettant d’identifier les intentions et les recherches de vos futurs clients.
+                                Spécialiste de la génération de leads, nous vous fournissons des prospects ciblés, correspondant précisément à vos besoins.
+                                Pour cela, nous mettons en œuvre des stratégies de marketing digital permettant d’identifier les intentions et comportements de vos futurs clients.
                                 <br /><br />
-                                Expert en digital, nous maîtrisons les différents leviers d’acquisition du référencement et des réseaux sociaux. Les leads que nous collections sont exclusifs et nous travaillons en totale transparence avec nos clients.
+                                Grâce à notre expertise digitale, nous exploitons efficacement les canaux d’acquisition comme le SEO et les réseaux sociaux.
+                                Les leads que nous générons sont exclusifs, et notre collaboration avec vous se fait en toute transparence.
                             </p>
                             <div className="flex justify-center">
                                 <button className="bg-[var(--dark-blue)] hover:bg-[var(--dark-blue)]/80 uppercase transition-all duration-300 cursor-pointer rounded-3xl py-4 px-8 flex items-center text-[12px] font-semibold text-white gap-1">
@@ -28,7 +30,7 @@ export default function NosReferences() {
                                 </button>
                             </div>
                         </div>
-                        <div className="bg-[var(--dark-blue)] md:order-2 order-1 relative rounded-l-[60px] text-white pt-2 bg-[url(data:image/svg+xml;base64,PHN2ZyAgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA3KSIgaGVpZ2h0PSIxNjBweCIgd2lkdGg9IjgwcHgiIHZpZXdCb3g9IjAgMCA4MCAxNjAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTQxLjEyLDQwLDUzLDE2LjI4LDYwLjYyLDFIODBWMEg1OC44OEw0MCwzNy43NiwyMS4xMiwwSDBWMUgxOS4zOEwyNywxNi4yOCwzOC44OCw0MCwxOS4zOCw3OUgwdjJIMTkuMzhsMTkuNSwzOS0xOS41LDM5SDB2MUgyMS4xMkw0MCwxMjIuMjQsNTguODgsMTYwSDgwdi0xSDYwLjYybC0xOS41LTM5LDE5LjUtMzlIODBWNzlINjAuNjJaTTQwLDExNy43NiwyMS4xMiw4MCw0MCw0Mi4yNCw1OC44OCw4MFoiLz48L3N2Zz4=)]">
+                        <div className="bg-[var(--light-blue)] md:order-2 order-1 relative rounded-l-[60px] text-white pt-2 bg-[url(data:image/svg+xml;base64,PHN2ZyAgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA3KSIgaGVpZ2h0PSIxNjBweCIgd2lkdGg9IjgwcHgiIHZpZXdCb3g9IjAgMCA4MCAxNjAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTQxLjEyLDQwLDUzLDE2LjI4LDYwLjYyLDFIODBWMEg1OC44OEw0MCwzNy43NiwyMS4xMiwwSDBWMUgxOS4zOEwyNywxNi4yOCwzOC44OCw0MCwxOS4zOCw3OUgwdjJIMTkuMzhsMTkuNSwzOS0xOS41LDM5SDB2MUgyMS4xMkw0MCwxMjIuMjQsNTguODgsMTYwSDgwdi0xSDYwLjYybC0xOS41LTM5LDE5LjUtMzlIODBWNzlINjAuNjJaTTQwLDExNy43NiwyMS4xMiw4MCw0MCw0Mi4yNCw1OC44OCw4MFoiLz48L3N2Zz4=)]">
                             <img src="https://agencealpha.fr/wp-content/uploads/2022/06/agence-alpha-generation-de-leads-men-2.png" alt="" className="h-full relative z-10 md:-ml-30" />
                             <img src="https://agencealpha.fr/wp-content/uploads/2022/05/screen-3.png" alt="" className="w-[460px] z-0 absolute md:left-20 left-10 top-1/3 block mx-auto" />
                         </div>

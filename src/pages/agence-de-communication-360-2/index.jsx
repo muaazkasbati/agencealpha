@@ -6,7 +6,7 @@ export default function AgenceCommunication() {
     return (
         <>
             <Header />
-            <div className="container mx-auto px-4 py-8 max-w-4xl mt-24">
+            <div className="container mx-auto px-4 py-8 max-w-6xl mt-24">
                 {/* Header Image */}
                 <div className="mb-8">
                     <img
@@ -23,7 +23,7 @@ export default function AgenceCommunication() {
                             Le <strong>marketing digital</strong> regroupe l’ensemble des techniques de marketing permettant à une entreprise d’entrer en contact avec ses clients ou ses prospects. Il analyse les besoins de votre audience cible afin de promouvoir vos services au bon moment et au bon endroit, dans l’objectif d’atteindre vos résultats.
                         </p>
                         <p className="mb-4">
-                            L’<a href="https://agencealpha.fr/" className="text-blue-600 hover:underline"><strong>Agence Alpha</strong></a> est une <a href="https://agencealpha.fr/agence-de-marketing/" className="text-blue-600 hover:underline"><strong>agence de marketing</strong></a> située à , spécialisée dans la communication digitale. Nous nous appuyons sur les solutions d’<strong>inbound marketing</strong> et de <strong>content marketing</strong>, incluant le référencement, le <a href="https://agencealpha.fr/community-management" className="text-blue-600 hover:underline">community management</a> et la création de sites Internet, pour porter votre message et <strong>améliorer votre marketing à </strong>.
+                            L’<a href="https://agencealpha.fr/" className="text-[var(--light-blue)] font-bold hover:underline"><strong>Agence Alpha</strong></a> est une <a href="https://agencealpha.fr/agence-de-marketing/" className="text-[var(--light-blue)] font-bold hover:underline"><strong>agence de marketing</strong></a> située à , spécialisée dans la communication digitale. Nous nous appuyons sur les solutions d’<strong>inbound marketing</strong> et de <strong>content marketing</strong>, incluant le référencement, le <a href="https://agencealpha.fr/community-management" className="text-[var(--light-blue)] font-bold hover:underline">community management</a> et la création de sites Internet, pour porter votre message et <strong>améliorer votre marketing à </strong>.
                         </p>
                         <iframe
                             loading="lazy"
@@ -103,7 +103,7 @@ export default function AgenceCommunication() {
 
                         <h3 className="text-xl font-semibold mt-4 mb-2">Un audit marketing gratuit</h3>
                         <p className="mb-4">
-                            Nous vous offrons un <a href="https://agencealpha.fr/alphalanding/" className="text-blue-600 hover:underline"><strong>audit marketing</strong></a> afin d’analyser votre site web et vos réseaux sociaux. Gagnez de nouveaux clients et augmentez votre chiffre d’affaire en faisant appel aux services de l’<strong>Agence Alpha</strong>, votre <strong>agence marketing à </strong>.
+                            Nous vous offrons un <a href="https://agencealpha.fr/alphalanding/" className="text-[var(--light-blue)] font-bold hover:underline"><strong>audit marketing</strong></a> afin d’analyser votre site web et vos réseaux sociaux. Gagnez de nouveaux clients et augmentez votre chiffre d’affaire en faisant appel aux services de l’<strong>Agence Alpha</strong>, votre <strong>agence marketing à </strong>.
                         </p>
                         <p className="mb-4">
                             Nous étudions la data et sommes à même de vous proposer <strong>une stratégie marketing adaptée à vos besoins</strong>. Nous nous adaptons facilement à vos enjeux et définissons les solutions à mettre en place pour augmenter votre notoriété, accroître le trafic vers votre site web, et générer des leads qualifiés.
@@ -146,19 +146,19 @@ export default function AgenceCommunication() {
                         </p>
                         <ul className="list-disc pl-6 mb-4">
                             <li>
-                                <strong>Référencement naturel</strong> : nous mettons en place une <a href="https://agencealpha.fr/referencement-seo-sea/" className="text-blue-600 hover:underline"><strong>stratégie SEO</strong></a> pour votre site web à , comprenant du contenu de haute qualité, des mots-clés pertinents, du blogging et du netlinking performants.
+                                <strong>Référencement naturel</strong> : nous mettons en place une <a href="https://agencealpha.fr/referencement-seo-sea/" className="text-[var(--light-blue)] font-bold hover:underline"><strong>stratégie SEO</strong></a> pour votre site web à , comprenant du contenu de haute qualité, des mots-clés pertinents, du blogging et du netlinking performants.
                             </li>
                             <li>
-                                <strong>Création de sites et création de sites événementiels</strong> : nous créons un <a href="https://agencealpha.fr/creation-de-sites-internet/" className="text-blue-600 hover:underline">site Internet</a> à votre image, optimisé pour le SEO, qu’il soit vitrine, vous lance dans le commerce en ligne ou fasse la promotion de vos événements sur .
+                                <strong>Création de sites et création de sites événementiels</strong> : nous créons un <a href="https://agencealpha.fr/creation-de-sites-internet/" className="text-[var(--light-blue)] font-bold hover:underline">site Internet</a> à votre image, optimisé pour le SEO, qu’il soit vitrine, vous lance dans le commerce en ligne ou fasse la promotion de vos événements sur .
                             </li>
                             <li>
                                 <strong>Création de landing page</strong> : mettez en place une page d’atterrissage qui convertit, pour mettre en avant votre nouveau produit ou un service en particulier.
                             </li>
                             <li>
-                                <strong>Création de campagnes de community management</strong> : nous sélectionnons les <a href="https://agencealpha.fr/community-management/" className="text-blue-600 hover:underline">réseaux sociaux</a> les plus pertinents pour votre entreprise et vous proposons une stratégie de communication 100 % personnalisée. Nous mettons ainsi en place une <strong>stratégie multi-canal.</strong>
+                                <strong>Création de campagnes de community management</strong> : nous sélectionnons les <a href="https://agencealpha.fr/community-management/" className="text-[var(--light-blue)] font-bold hover:underline">réseaux sociaux</a> les plus pertinents pour votre entreprise et vous proposons une stratégie de communication 100 % personnalisée. Nous mettons ainsi en place une <strong>stratégie multi-canal.</strong>
                             </li>
                             <li>
-                                <strong>Création de campagnes publicitaires SEA</strong> : nos <a href="https://agencealpha.fr/members/" className="text-blue-600 hover:underline">experts</a> propulsent votre site dans les premières positions des moteurs de recherches grâce à une campagne au contenu accrocheur et stratégique.
+                                <strong>Création de campagnes publicitaires SEA</strong> : nos <a href="https://agencealpha.fr/members/" className="text-[var(--light-blue)] font-bold hover:underline">experts</a> propulsent votre site dans les premières positions des moteurs de recherches grâce à une campagne au contenu accrocheur et stratégique.
                             </li>
                         </ul>
 
@@ -175,18 +175,11 @@ export default function AgenceCommunication() {
                             L’agence de community management Agence Alpha est votre <strong>partenaire privilégié</strong> pour la mise en place de votre campagne marketing à .
                         </p>
                         <p className="mb-4">
-                            Nous agissons en restant fidèle à vos valeurs et en étudiant d’abord vos besoins. Nous axons nos actions sur leur <strong>rentabilité</strong>, toujours dans une <strong>démarche de qualité</strong>. Un brief précis nous permet de chiffrer les actions à mener et de vous proposer un <a href="https://agencealpha.fr/tarifs-2/" className="text-blue-600 hover:underline"><strong>tarif</strong></a> à la hauteur de vos objectifs.
+                            Nous agissons en restant fidèle à vos valeurs et en étudiant d’abord vos besoins. Nous axons nos actions sur leur <strong>rentabilité</strong>, toujours dans une <strong>démarche de qualité</strong>. Un brief précis nous permet de chiffrer les actions à mener et de vous proposer un <a href="https://agencealpha.fr/tarifs-2/" className="text-[var(--light-blue)] font-bold hover:underline"><strong>tarif</strong></a> à la hauteur de vos objectifs.
                         </p>
                         <p className="mb-4">
                             Ainsi, le <strong>coût de votre campagne marketing à </strong> correspond à vos réels besoins et vous garantit un <strong>ROI optimal</strong>.
                         </p>
-                    </div>
-
-                    {/* Back to Home Button */}
-                    <div className="text-center mt-8">
-                        <a href="/" className="inline-block bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300">
-                            Revenir à l'accueil
-                        </a>
                     </div>
                 </div>
             </div>
