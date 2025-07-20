@@ -50,7 +50,7 @@ export default function Home() {
           <p class="text-[16px] text-[var(--gray)] leading-8 mb-6">
             Nous vous apportons <b>des leads hautement qualifiés</b> dans votre secteur afin de <b>booster la croissance de votre activité</b>
           </p>
-          <div className="grid md:grid-cols-5 grid-cols-2 mb-12">
+          <div className="grid md:grid-cols-5 grid-cols-2 mb-12 md:gap-0 gap-8">
             <div className="text-center space-y-3">
               <svg id="Layer_1" className="w-[68px] h-[68px] text-[var(--normal-blue)] block mx-auto" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 139.19 142.57">
                 <path fill="currentColor" class="cls-1" d="M117.08,17.37c-5.82,6.03-11.16,11.57-16.42,17.02-24.22-16.18-48.48-9.83-61.2,2.76-15.71,15.56-19.45,36.14-9.79,55.59,8.44,16.98,28.61,28.14,46.08,25.49,20.78-3.15,33.41-13.98,36.87-32.84-9.71,0-19.25-.6-28.68,.17-9.49,.77-13.31-2.47-11.88-12.01,.49-3.27,.08-6.68,.08-11.25,21.32,0,41.47-.16,61.6,.27,1.76,.04,4.72,3.78,4.98,6.05,4.86,41.98-28.24,71.93-61.8,73.82-36.89,2.08-67.49-22.37-74.59-52.22C-10.12,37.92,29.39-2.76,74.94,.15c16.11,1.03,29.97,6.45,42.13,17.23Z" />
@@ -487,8 +487,8 @@ export default function Home() {
           </h2>
           <div className="grid md:grid-cols-3 mb-8 md:gap-0 gap-6">
             <div className="space-y-10">
-              <div className="text-end">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block ml-auto mb-8"><path d="M6 8.5a6.5 6.5 0 1 1 13 0c0 6-6 6-6 10a3.5 3.5 0 1 1-7 0" /><path d="M15 8.5a2.5 2.5 0 0 0-5 0v1a2 2 0 1 1 0 4" /></svg>
+              <div className="md:text-end">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block md:ml-auto mb-8"><path d="M6 8.5a6.5 6.5 0 1 1 13 0c0 6-6 6-6 10a3.5 3.5 0 1 1-7 0" /><path d="M15 8.5a2.5 2.5 0 0 0-5 0v1a2 2 0 1 1 0 4" /></svg>
                 <h4 class="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">
                   UNE STRATÉGIE ALIGNÉE À VOS OBJECTIFS
                 </h4>
@@ -497,8 +497,8 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="text-end">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block ml-auto mb-8"><circle cx="12" cy="12" r="10" /><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" /><path d="M12 18V6" /></svg>
+              <div className="md:text-end">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block md:ml-auto mb-8"><circle cx="12" cy="12" r="10" /><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" /><path d="M12 18V6" /></svg>
                 <h4 class="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">
                   TARIFICATION TRANSPARENTE
                 </h4>
@@ -507,8 +507,8 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="text-end">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block ml-auto mb-8"><circle cx="12" cy="12" r="10" /><line x1="9" x2="15" y1="15" y2="9" /></svg>
+              <div className="md:text-end">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block md:ml-auto mb-8"><circle cx="12" cy="12" r="10" /><line x1="9" x2="15" y1="15" y2="9" /></svg>
                 <h4 class="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">
                   CIBLAGE PRÉCIS
                 </h4>

@@ -26,7 +26,7 @@ export default function NosLeads() {
                                 <li>Une croissance de votre chiffre d’affaires</li>
                             </ul>
                         </div>
-                        <div className="bg-[var(--dark-blue)] bg-center md:order-2 order-1 relative rounded-l-[60px] bg-[url('http://agencealpha.fr/wp-content/uploads/2022/06/agence-alpha-generation-de-leads-women-5.jpg')] h-[630px]">
+                        <div className="bg-[var(--dark-blue)] bg-center md:order-2 order-1 relative rounded-l-[60px] bg-[url('http://agencealpha.fr/wp-content/uploads/2022/06/agence-alpha-generation-de-leads-women-5.jpg')] md:h-[630px] h-[480px]">
 
                         </div>
                     </div>
@@ -38,7 +38,7 @@ export default function NosLeads() {
                     <h2 className="md:text-[40px] text-[28px] text-[var(--dark-blue)] font-bold mb-2">Une multitude de leads pour répondre à vos attentes</h2>
                     <p className="text-[16px] text-[var(--gray)] leading-8 mb-8">Plus de <b>100 000 leads déjà vendus</b> sur plus de <b>30 secteurs différents</b>.<br />
                         Découvrez quelques-uns de nos domaines d'expertises</p>
-                    <div className="grid md:grid-cols-6 grid-cols-3 gap-12 mb-12">
+                    <div className="grid md:grid-cols-6 grid-cols-3 gap-12 mb-12 ">
                         <div className="text-center space-y-3">
                             <a href="" className="block">
                                 <svg id="Layer_1" className="w-[68px] h-[68px] text-[var(--light-blue)] block mx-auto" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.58 71.18">
@@ -250,7 +250,7 @@ export default function NosLeads() {
                     <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-12">Génération de leads</h4>
                     <h2 className="md:text-[40px] text-[28px] text-[var(--dark-blue)] font-bold mb-2">Une expertise métier à 360°</h2>
                     <p className="text-[16px] text-[var(--gray)] leading-8 mb-6">Nous générons pour vous <b>des leads qualifiés</b> sur votre secteur pour <b>faire décoller votre business</b></p>
-                    <div className="grid md:grid-cols-5 grid-cols-2 mb-12">
+                    <div className="grid md:grid-cols-5 grid-cols-2 mb-12 md:gap-0 gap-8">
                         <div className="text-center space-y-3">
                             <svg id="Layer_1" className="w-[68px] h-[68px] text-[var(--normal-blue)] block mx-auto" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 139.19 142.57">
                                 <path fill="currentColor" class="cls-1" d="M117.08,17.37c-5.82,6.03-11.16,11.57-16.42,17.02-24.22-16.18-48.48-9.83-61.2,2.76-15.71,15.56-19.45,36.14-9.79,55.59,8.44,16.98,28.61,28.14,46.08,25.49,20.78-3.15,33.41-13.98,36.87-32.84-9.71,0-19.25-.6-28.68,.17-9.49,.77-13.31-2.47-11.88-12.01,.49-3.27,.08-6.68,.08-11.25,21.32,0,41.47-.16,61.6,.27,1.76,.04,4.72,3.78,4.98,6.05,4.86,41.98-28.24,71.93-61.8,73.82-36.89,2.08-67.49-22.37-74.59-52.22C-10.12,37.92,29.39-2.76,74.94,.15c16.11,1.03,29.97,6.45,42.13,17.23Z" />
@@ -306,24 +306,24 @@ export default function NosLeads() {
                     <h2 className="md:text-[40px]/12 text-[28px] text-[var(--dark-blue)] font-bold text-center mb-12">6 points clés qui feront le succès de vos campagnes !</h2>
                     <div className="grid md:grid-cols-3 mb-8 md:gap-0 gap-6">
                         <div className="space-y-10">
-                            <div className="text-end">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block ml-auto mb-8"><path d="M6 8.5a6.5 6.5 0 1 1 13 0c0 6-6 6-6 10a3.5 3.5 0 1 1-7 0" /><path d="M15 8.5a2.5 2.5 0 0 0-5 0v1a2 2 0 1 1 0 4" /></svg>
+                            <div className="md:text-end">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block md:ml-auto mb-8"><path d="M6 8.5a6.5 6.5 0 1 1 13 0c0 6-6 6-6 10a3.5 3.5 0 1 1-7 0" /><path d="M15 8.5a2.5 2.5 0 0 0-5 0v1a2 2 0 1 1 0 4" /></svg>
                                 <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">À L’ÉCOUTE DE VOTRE STRATÉGIE</h4>
                                 <p className="text-[16px] text-[var(--gray)] leading-8">
                                     Avant chaque lancement de projet, nous prenons le temps d’écouter chaque client. L’objectif étant de comprendre quel est votre besoin et comment il s’inscrit dans votre stratégie globale.
                                 </p>
                             </div>
 
-                            <div className="text-end">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block ml-auto mb-8"><circle cx="12" cy="12" r="10" /><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" /><path d="M12 18V6" /></svg>
+                            <div className="md:text-end">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block md:ml-auto mb-8"><circle cx="12" cy="12" r="10" /><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" /><path d="M12 18V6" /></svg>
                                 <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">TARIF FIXE</h4>
                                 <p className="text-[16px] text-[var(--gray)] leading-8">
                                     Aucune surprise, nous définissions ensemble le prix et les critères de qualification des leads. Ainsi vous pouvez piloter votre acquisition sereinement !
                                 </p>
                             </div>
 
-                            <div className="text-end">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block ml-auto mb-8"><circle cx="12" cy="12" r="10" /><line x1="9" x2="15" y1="15" y2="9" /></svg>
+                            <div className="md:text-end">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" class="w-[48px] h-[48px] text-[var(--normal-blue)] block md:ml-auto mb-8"><circle cx="12" cy="12" r="10" /><line x1="9" x2="15" y1="15" y2="9" /></svg>
                                 <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold mb-4">DÉFINIR  VOTRE CIBLE</h4>
                                 <p className="text-[16px] text-[var(--gray)] leading-8">
                                     Nous accordons une attention toute particulière à la définition de votre cible / personae. Nous pourrons ainsi créer des campagnes ultras ciblées et personnalisées.

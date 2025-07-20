@@ -29,7 +29,7 @@ export default function NotreAgence() {
                                 </button>
                             </div>
                         </div>
-                        <div className="bg-[var(--dark-blue)] md:order-2 order-1 relative rounded-l-[60px] bg-[url('https://agencealpha.fr/wp-content/uploads/2022/05/agence-alpha-generation-de-leads-team.jpg')] h-[630px]">
+                        <div className="bg-[var(--dark-blue)] md:order-2 order-1 relative rounded-l-[60px] bg-[url('https://agencealpha.fr/wp-content/uploads/2022/05/agence-alpha-generation-de-leads-team.jpg')] md:h-[630px] h-[480px]">
 
                         </div>
                     </div>

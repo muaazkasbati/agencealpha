@@ -5,7 +5,7 @@ export default function Footer() {
                 <div className="grid md:grid-cols-2 gap-2 mb-12">
                     <div className="md:text-start">
                         <p className="text-[18px] font-semibold mb-4">SUIVEZ-NOUS</p>
-                        <div className="flex space-x-4 mb-4">
+                        <div className="flex space-x-4 mb-4 md:justify-start justify-center">
                             <a href="#" className="bg-white w-[45px] h-[45px] flex items-center justify-center rounded-full text-[var(--light-blue)]">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook-icon lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg>
                             </a>
