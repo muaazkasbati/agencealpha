@@ -32,7 +32,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-[var(--light-blue)] md:order-2 order-1 relative rounded-l-[60px] text-white pt-24 bg-[url(data:image/svg+xml;base64,PHN2ZyAgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA3KSIgaGVpZ2h0PSIxNjBweCIgd2lkdGg9IjgwcHgiIHZpZXdCb3g9IjAgMCA4MCAxNjAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTQxLjEyLDQwLDUzLDE2LjI4LDYwLjYyLDFIODBWMEg1OC44OEw0MCwzNy43NiwyMS4xMiwwSDBWMUgxOS4zOEwyNywxNi4yOCwzOC44OCw0MCwxOS4zOCw3OUgwdjJIMTkuMzhsMTkuNSwzOS0xOS41LDM5SDB2MUgyMS4xMkw0MCwxMjIuMjQsNTguODgsMTYwSDgwdi0xSDYwLjYybC0xOS41LTM5LDE5LjUtMzlIODBWNzlINjAuNjJaTTQwLDExNy43NiwyMS4xMiw4MCw0MCw0Mi4yNCw1OC44OCw4MFoiLz48L3N2Zz4=)]">
-              <img src="https://agencealpha.fr/wp-content/uploads/2022/06/agence-alpha-generation-de-leads-men-1.png" alt="" className="h-full relative z-10 md:-ml-30" />
+              <img src="https://agencealpha.fr/wp-content/uploads/2022/06/agence-alpha-generation-de-leads-men-1.png" alt="" className="md:h-full md:w-auto w-full relative z-10 md:-ml-30" />
               <img src="https://agencealpha.fr/wp-content/uploads/2022/05/screen-5.png" alt="" className="md:w-[580px] w-[260px] z-0 absolute md:left-30 left-10 top-1/3 block mx-auto" />
             </div>
           </div>
@@ -345,7 +345,7 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-[var(--orange)] md:order-2 order-1 relative rounded-[60px] text-white pt-24 bg-[url(data:image/svg+xml;base64,PHN2ZyAgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA3KSIgaGVpZ2h0PSIxNjBweCIgd2lkdGg9IjgwcHgiIHZpZXdCb3g9IjAgMCA4MCAxNjAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTQxLjEyLDQwLDUzLDE2LjI4LDYwLjYyLDFIODBWMEg1OC44OEw0MCwzNy43NiwyMS4xMiwwSDBWMUgxOS4zOEwyNywxNi4yOCwzOC44OCw0MCwxOS4zOCw3OUgwdjJIMTkuMzhsMTkuNSwzOS0xOS41LDM5SDB2MUgyMS4xMkw0MCwxMjIuMjQsNTguODgsMTYwSDgwdi0xSDYwLjYybC0xOS41LTM5LDE5LjUtMzlIODBWNzlINjAuNjJaTTQwLDExNy43NiwyMS4xMiw4MCw0MCw0Mi4yNCw1OC44OCw4MFoiLz48L3N2Zz4=)]">
-              <img src="https://agencealpha.fr/wp-content/uploads/2022/06/agence-alpha-generation-de-leads-women-3.png" alt="" className="h-full relative z-10 md:-ml-20" />
+              <img src="https://agencealpha.fr/wp-content/uploads/2022/06/agence-alpha-generation-de-leads-women-3.png" alt="" className="md:h-full md:w-auto w-full relative z-10 md:-ml-20" />
               <img src="https://agencealpha.fr/wp-content/uploads/2022/05/screen-4.png" alt="" className="md:w-[380px] w-[200px] z-0 absolute md:left-30 left-14 top-1/3 block mx-auto" />
             </div>
 

@@ -10,7 +10,7 @@ export default function NosTarifs() {
                 <div className="">
                     <div className="grid md:grid-cols-2 items-center gap-20">
                         <div className="bg-[var(--light-blue)] relative rounded-r-[60px] text-white pt-36 bg-[url(data:image/svg+xml;base64,PHN2ZyAgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjA3KSIgaGVpZ2h0PSIxNjBweCIgd2lkdGg9IjgwcHgiIHZpZXdCb3g9IjAgMCA4MCAxNjAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTQxLjEyLDQwLDUzLDE2LjI4LDYwLjYyLDFIODBWMEg1OC44OEw0MCwzNy43NiwyMS4xMiwwSDBWMUgxOS4zOEwyNywxNi4yOCwzOC44OCw0MCwxOS4zOCw3OUgwdjJIMTkuMzhsMTkuNSwzOS0xOS41LDM5SDB2MUgyMS4xMkw0MCwxMjIuMjQsNTguODgsMTYwSDgwdi0xSDYwLjYybC0xOS41LTM5LDE5LjUtMzlIODBWNzlINjAuNjJaTTQwLDExNy43NiwyMS4xMiw4MCw0MCw0Mi4yNCw1OC44OCw4MFoiLz48L3N2Zz4=)]">
-                            <img src="https://agencealpha.fr/wp-content/uploads/2022/06/agence-alpha-generation-de-leads-women-2.png" alt="" className="h-full relative z-10 md:ml-72" />
+                            <img src="https://agencealpha.fr/wp-content/uploads/2022/06/agence-alpha-generation-de-leads-women-2.png" alt="" className="md:h-full md:w-auto w-full relative z-10 md:ml-72" />
                         </div>
                         <div className="space-y-4 md:pl-10 md:pr-12 md:px-0 px-6">
                             <h4 className="text-[16px] text-[var(--light-blue)] uppercase font-semibold">Nos formules tout compris pour</h4>
